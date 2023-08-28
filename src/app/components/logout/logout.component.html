@@ -1,0 +1,27 @@
+
+
+<div class="m-0 vh-100 row justify-content-center align-items-center">
+  <div class="col-4 bg-dark p-5 text-center">
+    <h1>Logout Auth0</h1>
+    <hr>
+    <div class="d-grid gap-2 mb-5">
+      <button class="btn btn-outline-primary" (click)="logout()" type="button">LOGOUT</button>
+    </div>
+
+    <div class="card text-center text-bg-dark" *ngIf="auth.user$ | async as user">
+      <img src="{{ user.picture }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.name }}</h5>
+        <p class="card-text">
+          {{ user.email }}
+        </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item text-bg-dark">{{ user.nickname }}</li>
+      </ul>
+      <div class="card-body">
+      </div>
+    </div>
+
+  </div>
+</div>
