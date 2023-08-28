@@ -1,6 +1,7 @@
 # AngularAuth0Classic
 
-Classic Angular App (NgModules) that uses [Auth0](https://github.com/auth0/auth0-angular) to login
+Classic Angular App (NgModules) that uses [Auth0](https://github.com/auth0/auth0-angular) to login.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
 ## Development server
