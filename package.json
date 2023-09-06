@@ -1,6 +1,10 @@
 {
   "name": "angular-auth0-classic",
   "version": "1.0.0",
+  "description": "",
+  "author": "Pepe Guerra",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
